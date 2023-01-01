@@ -1,0 +1,27 @@
+<!---JavaScript can change HTML contents-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript can change HTML content</title>
+</head>
+
+<body>
+    <h3>what JavaScript can do</h3>
+    <p id="demo">JavaScript can change HTML contents</p>
+    <button onclick="change()">Click here</button>
+
+
+
+    <script>
+        function change() {
+            var a = "This is other contents";
+            document.getElementById("demo").innerHTML = a;
+        }
+    </script>
+</body>
+
+</html>

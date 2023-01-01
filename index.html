@@ -1,0 +1,62 @@
+<!--Q1.write a JS program to print current day,date and time -->
+<!----------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>My first javascript </h1>
+    <button onclick="dateTime()">Click me to display date and time</button>
+    <!-- <p id="demo"></p> -->
+    <!-- <p class="demo"></p> -->
+    <p data-dev="demo"></p>
+
+
+
+
+
+
+    <script>
+        //There are four ways to display the contents of javascript code
+        // 1st way----
+
+        // function dateTime() {
+        //     var a = document.getElementById('demo')
+        //     a.innerHTML = Date();
+
+
+        // query selector method of Class attribute
+
+        // function dateTime() {
+        //     document.querySelector('p.demo').innerHTML = Date();
+        // }
+
+        // this custom attribute 
+        function dateTime() {
+            document.querySelector(p['data-dev="demo"']).innerHTML = Date();
+        }
+
+
+
+        //2nd Way---
+
+        // console.log(Date());
+
+        //3rd way----
+
+        // document.write(Date())
+
+        //4th way---
+
+        //window.alert(Date());
+    </script>
+</body>
+
+</html>
